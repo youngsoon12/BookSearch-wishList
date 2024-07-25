@@ -7,8 +7,8 @@
 <table>
   <tr><th>날짜</th> <th>내용</th></tr>
   <tr><td>07.25</td><td>search Page 구현 완료하기, MySQL DB연결하기</td></tr>
-  <tr><td>07.26</td><td>ResultPage 구현하기, wishList DB에 Data 넣는것 까지 구현하기</td></tr>
-  <tr><td>07.27</td><td>wishList 페이지 구현하기</td></tr>
+  <tr><td>07.26</td><td>resultPage 구현하기, wishList DB에 Data 넣는것 까지 구현하기</td></tr>
+  <tr><td>07.27</td><td> wishList 페이지 구현하기</td></tr>
   <tr><td>07.28</td><td>발표자료 준비하기</td></tr>
 </table>
 
