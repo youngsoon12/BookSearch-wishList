@@ -1,7 +1,7 @@
 # BookSearch-wishList
 네이버 도서검색API를 이용하여 도서목록을 조회하고 그 중에 마음에 드는것을 wishList에 넣어 DB에 저장하는 미니 프로젝트 입니다.
 
-<h3>프로젝트 목적</h3> : SpringBoot와 JSP를 이용하여 학습을 위한 프로젝트입니다.
+<h3>프로젝트 목적</h3>  SpringBoot와 JSP를 이용하여 학습을 위한 프로젝트입니다.
 
 <h3>프로젝트 일정</h3>
 <table>
