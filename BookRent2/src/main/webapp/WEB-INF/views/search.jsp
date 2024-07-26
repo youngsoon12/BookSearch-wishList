@@ -14,9 +14,8 @@
                 <input type="text" id="search-input" placeholder="책 제목이나 저자를 입력하세요">
                 <button type="submit" id ="search-btn">검색</button>
         </div>
-        <a href="/wishlist" class="wishlist-button">위시리스트</a> 
+        <a href="/saveBook/wishlist" class="wishlist-button">위시리스트</a> 
         </div>
-    </div>
     <script src="/js/search.js"></script>
 </body>
 </html>

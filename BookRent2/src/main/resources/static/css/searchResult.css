@@ -1,0 +1,153 @@
+/* searchResult.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    min-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+    font-size: 2em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.book-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+}
+
+.book-item img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+.book-item div {
+    flex: 1;
+}
+
+.book-item h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+.book-item a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.book-item a:hover {
+    text-decoration: underline;
+}
+
+.book-item p {
+    margin: 5px 0;
+}
+
+.book-item form {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* 3줄로 제한 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    max-width: 800px; /* 설정할 최대 너비 */
+}
+
+.img-area{
+	text-align:center;
+}
+.title-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;/* Space between the items */
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* Centering h1 element */
+.title-area h1 {
+    margin: 0 auto;
+    text-align: center;
+    flex: 1; 
+    width:90%;
+    margin-bottom: 20px;
+}
+
+/* Buttons styling */
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #98abbf;
+    border-radius: 49px;
+    background-color: #2196F3;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    width: 40px;
+    text-align: center;
+}
+
+.nav-button:hover {
+    background-color: #1976D2;
+    border-color: #004494;
+}
+
+.nav-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5);
+}
