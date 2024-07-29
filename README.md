@@ -14,7 +14,7 @@
 | SpringBoot, MySQL, JSP, CSS
 
 <h3>디렉토리 구조</h3>
-<img src="https://github.com/user-attachments/assets/f481392e-728d-4cc4-b933-8035cbdc1de8">
+<img src="https://github.com/user-attachments/assets/f481392e-728d-4cc4-b933-8035cbdc1de8">
 
 <h3>기능 구현</h3>
 - 도서검색 기능 : 외부 API인 네이버도서검색 API를 fetch로 구현할까 하다가 CRA방식으로 구현해버리면 스프링부트를 이용하여 프로젝트를 하는 의미가 없다 생각하여 RestTemplete를 이용하여 구현하였습니다.
