@@ -1,4 +1,4 @@
-![searchResult](https://github.com/user-attachments/assets/0cba39e5-17b2-4c07-b079-0c1b4018f422)![wishList(empty)](https://github.com/user-attachments/assets/27700ddb-7134-43bc-a8bf-f0815f472ac2)# 📚BookSearch-wishList
+#  📚BookSearch-wishList
 도서목록에서 검색을 하여 그 중에 마음에 드는 책들을 위시리스트에 담을 수 있는 간단한 미니 프로젝트 입니다.
 
 <h3>프로젝트 목적</h3>  이 프로젝트의 목적으로는 배포에 초점을 두기보다는 스프링 부트와 JSP를 학습하며 MySQL을 사용해보고 싶은 것에 목적을 두고 진행하였습니다.
@@ -14,7 +14,8 @@
 | SpringBoot, MySQL, JSP, CSS
 
 <h3>디렉토리 구조</h3>
-<img width="1128" alt="폴더구조" src="https://github.com/user-attachments/assets/81f86ee3-b3f0-4cb5-9996-cd67ebf74f61">
+![폴더구조](https://github.com/user-attachments/assets/b12d7032-6fdd-4eb5-aa58-d119281924b7)
+
 
 <h3>기능 구현</h3>
 - 도서검색 기능 : 외부 API인 네이버도서검색 API를 fetch로 구현할까 하다가 CRA방식으로 구현해버리면 스프링부트를 이용하여 프로젝트를 하는 의미가 없다 생각하여 RestTemplete를 이용하여 구현하였습니다.
@@ -24,7 +25,7 @@
 
 <h3>Page</h3>
 *search 
-![search](https://github.com/user-attachments/assets/6dae61f4-bae7-441b-bcd4-ba0ce3cb197e)
+![search](https://github.com/user-attachments/assets/7b7f4b17-54da-4daa-bc66-65f6b15636fe)
 
 *searchResult
 ![searchResult](https://github.com/user-attachments/assets/a2d37d8e-080a-46a6-a7a6-5ac769e6c533)
